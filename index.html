@@ -16,12 +16,14 @@
     id="iframe"
     ></iframe>
   
-  <!-- <script>
-    const iframe = document.getElementById("iframe");
-
-    iframe.onload = function(){
-      iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
-    }
-  </script> -->
+    <script>
+      // Selecting the iframe element
+      var iframe = document.getElementById("myIframe");
+      
+      // Adjusting the iframe height onload event
+      iframe.onload = function(){
+          iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+      }
+      </script>
 </body>
 </html>
